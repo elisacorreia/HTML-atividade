@@ -1,0 +1,115 @@
+/* Estilo geral da página */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffcbe0;
+    color: #721772;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+} 
+/* estilo dos textos e cabeçalhos */
+h1 {
+    text-align: center;
+    color: #d63384;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+h2, h3 {
+    color: #b30059;
+    margin-top: 30px;
+}
+h4 {
+    font-family: fantasy;
+    color: #ff7bed;
+}
+/* Parágrafos */
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+/* Links */
+a { 
+    font-size: 1.5em;
+    color: #ff4da6;
+    text-decoration: none;
+}
+a:hover { /* aqui coloca uma linha abaixo dos links quando o mouse passa */
+    text-decoration: underline;
+}
+/* Imagem */
+img { /* aqui centraliza a imagem e arredonda as suas bordas */
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
+}
+/* Formulário */
+form { /* aqui coloca fundo branco no form */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.2);
+    margin-top: 30px;
+  }
+label { /* aqui deixa o texto do form em negrito*/
+    font-weight: bold;
+    color: #800040;
+  }
+input, textarea {/* aqui expande e da borda pra caixa do email e nome*/
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 0.5px solid #4d4c4c;
+    border-radius: 8px;
+    font-size: 1em;
+  }
+/* Botão de envio */
+button { /*aumenta o botão*/
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+button:hover { /*muda a cor do fundo do botão*/
+    background-color: #c71585;
+  }
+
+/*rodapé*/
+  footer {
+    background-color: #ffe6f0;
+    color: #800040;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #ffb6c1;
+  }
+  
+  footer p {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .redes-sociais {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .redes-sociais li a {
+    color: #d63384;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .redes-sociais li a:hover {
+    text-decoration: underline;
+  }
